@@ -1,0 +1,1616 @@
+<tnz framecount="99" version="71.1">
+  <generator>
+    "OpenToonz 1.7.1"
+  </generator>
+  <properties>
+    <cameras>
+      <camera>
+        <cameraSize>
+          16 9 
+        </cameraSize>
+        <cameraRes>
+          1920 1080 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </camera>
+      </cameras>
+    <outputs>
+      <output name="main">
+        <range>
+          0 -1 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs\\.tif"
+        </path>
+        <bpp>
+          32 
+        </bpp>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="IBM PC">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv and Welch encoding">
+              <item value="Lempel-Ziv and Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      <output name="preview">
+        <range>
+          0 98 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs\\.tif"
+        </path>
+        <bpp>
+          32 
+        </bpp>
+        <syncColorSettings>
+          1 
+        </syncColorSettings>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="IBM PC">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv and Welch encoding">
+              <item value="Lempel-Ziv and Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      </outputs>
+    <cleanupParameters>
+      <cleanupCamera>
+        <cameraSize>
+          16 9 
+        </cameraSize>
+        <cameraRes>
+          1920 1080 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </cleanupCamera>
+      <cleanupPalette>
+        <version>
+          71 0 
+        </version>
+        <styles>
+          <style>
+            color_0 3 255 255 255 0 
+          </style>
+          <style>
+            color_1 2002 0 0 0 255 0 0 0 255 0 50 70 10 
+          </style>
+          </styles>
+        <stylepages>
+          <page>
+            <name>
+              colors 
+            </name>
+            <indices>
+              0 1 
+            </indices>
+            </page>
+          </stylepages>
+        <shortcuts>
+          -1 0 1 -1 -1 -1 -1 -1 -1 -1 
+        </shortcuts>
+        </cleanupPalette>
+      <lineProcessing autoAdjust="0" mode="grey" sharpness="90.000000"/>
+      <despeckling value="2"/>
+      <aaValue value="70"/>
+      <closestField value="999.000000"/>
+      <fdg name=""/>
+      <altBrightnessContrast>
+        0 50 
+      </altBrightnessContrast>
+      <lpNoneFormat>
+        tif 
+      </lpNoneFormat>
+      </cleanupParameters>
+    <scanParameters>
+      <paper fmt=""/>
+      </scanParameters>
+    <vectorizerParameters>
+      <version>
+        71 0 
+      </version>
+      <outline>
+        0 
+      </outline>
+      <visibilityBits>
+        -1 
+      </visibilityBits>
+      <Centerline>
+        <threshold>
+          8 
+        </threshold>
+        <accuracy>
+          9 
+        </accuracy>
+        <despeckling>
+          5 
+        </despeckling>
+        <maxThickness>
+          200 
+        </maxThickness>
+        <thicknessRatioFirst>
+          100 
+        </thicknessRatioFirst>
+        <thicknessRatioLast>
+          100 
+        </thicknessRatioLast>
+        <makeFrame>
+          0 
+        </makeFrame>
+        <paintFill>
+          0 
+        </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
+        <naaSource>
+          0 
+        </naaSource>
+        </Centerline>
+      <Outline>
+        <despeckling>
+          4 
+        </despeckling>
+        <accuracy>
+          8 
+        </accuracy>
+        <adherence>
+          50 
+        </adherence>
+        <angle>
+          45 
+        </angle>
+        <relative>
+          25 
+        </relative>
+        <maxColors>
+          50 
+        </maxColors>
+        <toneThreshold>
+          128 
+        </toneThreshold>
+        <transparentColor>
+          255 255 255 255 
+        </transparentColor>
+        <paintFill>
+          0 
+        </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
+        </Outline>
+      </vectorizerParameters>
+    <bgColor>
+      255 255 255 0 
+    </bgColor>
+    <markers>
+      6 0 
+    </markers>
+    <subsampling>
+      1 1 
+    </subsampling>
+    <fieldguide>
+      16 1.77778 
+    </fieldguide>
+    <noteColors>
+      255 235 140 255 255 160 120 255 255 180 190 255 135 205 250 255 145 240 145 255 130 255 210 255 150 245 255 255 
+    </noteColors>
+    </properties>
+  <levelSet>
+    <levels>
+      <level id='1'>
+        A 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\A.pli"
+        </path>
+        
+      </level>
+      <level id='2'>
+        rupee_1 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+drawings\\rupee_1.pli"
+        </path>
+        
+      </level>
+      <level id='3'>
+        rupee_2 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+drawings\\rupee_1.pli"
+        </path>
+        
+      </level>
+      <level id='4'>
+        B 
+        <info dpiType="image"/>
+        <path>
+          "+extras\\B..tif"
+        </path>
+        
+      </level>
+      <level id='5'>
+        C 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\C.pli"
+        </path>
+        
+      </level>
+      <level id='6'>
+        rupee2 
+        <info dpiType="image"/>
+        <path>
+          "+extras\\rupee2..png"
+        </path>
+        
+      </level>
+      <level id='7'>
+        D 
+        <info dpiType="image"/>
+        <path>
+          "+extras\\D..png"
+        </path>
+        
+      </level>
+      <level id='8'>
+        rupee_location 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\rupee_location.pli"
+        </path>
+        
+      </level>
+      
+    </levels>
+    <folder name="Cast" type="default">
+      <levels>
+        <level id='8'/><level id='5'/><level id='3'/><level id='1'/><level id='6'/><level id='2'/><level id='7'/><level id='4'/>
+      </levels>
+      </folder>
+    <folder name="Audio">
+      </folder>
+    </levelSet>
+  <xsheet>
+    <columns>
+      <zeraryFxColumn id='9'>
+        <Toonz_zeraryColumnFx id='10'>
+          <STD_particlesFx id='11'>
+            
+            <params>
+              <source_ctrl>
+                0 0 
+              </source_ctrl>
+              <bright_thres>
+                25 25 
+              </bright_thres>
+              <multi_source>
+                0 0 
+              </multi_source>
+              <center>
+                <x>
+                  <default>
+                    0 
+                  </default>
+                  </x>
+                <y>
+                  <default>
+                    400 
+                  </default>
+                  </y>
+                </center>
+              <length>
+                <default>
+                  700 
+                </default>
+                </length>
+              <height>
+                <default>
+                  40 
+                </default>
+                </height>
+              <birth_rate>
+                <default>
+                  5 
+                </default>
+                </birth_rate>
+              <lifetime>
+                <min>
+                  <default>
+                    100 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    100 
+                  </default>
+                  </max>
+                </lifetime>
+              <lifetime_ctrl>
+                0 0 
+              </lifetime_ctrl>
+              <column_lifetime>
+                0 0 
+              </column_lifetime>
+              <starting_frame>
+                1 -30 
+              </starting_frame>
+              <random_seed>
+                1 1 
+              </random_seed>
+              <gravity>
+                <default>
+                  0 
+                </default>
+                </gravity>
+              <gravity_angle>
+                <default>
+                  0 
+                </default>
+                </gravity_angle>
+              <gravity_ctrl>
+                0 0 
+              </gravity_ctrl>
+              <friction>
+                <default>
+                  0 
+                </default>
+                </friction>
+              <friction_ctrl>
+                0 0 
+              </friction_ctrl>
+              <wind>
+                <default>
+                  0 
+                </default>
+                </wind>
+              <wind_angle>
+                <default>
+                  0 
+                </default>
+                </wind_angle>
+              <swing_mode>
+                1 
+              </swing_mode>
+              <scattering_x>
+                <min>
+                  <default>
+                    0 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    0 
+                  </default>
+                  </max>
+                </scattering_x>
+              <scattering_y>
+                <min>
+                  <default>
+                    0 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    0 
+                  </default>
+                  </max>
+                </scattering_y>
+              <scattering_x_ctrl>
+                0 0 
+              </scattering_x_ctrl>
+              <scattering_y_ctrl>
+                0 0 
+              </scattering_y_ctrl>
+              <swing>
+                <min>
+                  <default>
+                    0 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    100 
+                  </default>
+                  </max>
+                </swing>
+              <speed>
+                <min>
+                  <default>
+                    10 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    25 
+                  </default>
+                  </max>
+                </speed>
+              <speed_ctrl>
+                0 0 
+              </speed_ctrl>
+              <speed_angle>
+                <min>
+                  <default>
+                    -30 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    30 
+                  </default>
+                  </max>
+                </speed_angle>
+              <speeda_ctrl>
+                0 0 
+              </speeda_ctrl>
+              <speeda_use_gradient>
+                0 0 
+              </speeda_use_gradient>
+              <speed_size>
+                0 1 
+              </speed_size>
+              <top_layer>
+                0 
+              </top_layer>
+              <mass>
+                <min>
+                  <default>
+                    1 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    1 
+                  </default>
+                  </max>
+                </mass>
+              <scale>
+                <min>
+                  <default>
+                    50 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    100 
+                  </default>
+                  </max>
+                </scale>
+              <scale_ctrl>
+                0 0 
+              </scale_ctrl>
+              <scale_ctrl_all>
+                0 0 
+              </scale_ctrl_all>
+              <rot>
+                <min>
+                  <default>
+                    0 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    0 
+                  </default>
+                  </max>
+                </rot>
+              <rot_ctrl>
+                0 0 
+              </rot_ctrl>
+              <trail>
+                <min>
+                  <default>
+                    0 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    0 
+                  </default>
+                  </max>
+                </trail>
+              <trail_step>
+                <default>
+                  0 
+                </default>
+                </trail_step>
+              <spin_swing_mode>
+                0 
+              </spin_swing_mode>
+              <spin_speed>
+                <default>
+                  0 
+                </default>
+                </spin_speed>
+              <spin_random>
+                <min>
+                  <default>
+                    0 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    0 
+                  </default>
+                  </max>
+                </spin_random>
+              <spin_swing>
+                <min>
+                  <default>
+                    0 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    0 
+                  </default>
+                  </max>
+                </spin_swing>
+              <path_aim>
+                0 0 
+              </path_aim>
+              <opacity>
+                <min>
+                  <default>
+                    0 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    100 
+                  </default>
+                  </max>
+                </opacity>
+              <opacity_ctrl>
+                0 0 
+              </opacity_ctrl>
+              <trail_opacity>
+                <min>
+                  <default>
+                    0 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    100 
+                  </default>
+                  </max>
+                </trail_opacity>
+              <scale_step>
+                <min>
+                  <default>
+                    0 
+                  </default>
+                  </min>
+                <max>
+                  <default>
+                    0 
+                  </default>
+                  </max>
+                </scale_step>
+              <scale_step_ctrl>
+                0 0 
+              </scale_step_ctrl>
+              <fade_in>
+                <default>
+                  0 
+                </default>
+                </fade_in>
+              <fade_out>
+                <default>
+                  0 
+                </default>
+                </fade_out>
+              <animation>
+                3 
+              </animation>
+              <step>
+                1 3 
+              </step>
+              <birth_color>
+                <spectrum>
+                  <s_value>
+                    <default>
+                      0 
+                    </default>
+                    <keyframes>
+                      <S>
+                        0 0 1 0 
+                      </S>
+                      </keyframes>
+                    </s_value>
+                  <col_value>
+                    <red>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </red>
+                    <green>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </green>
+                    <blue>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </blue>
+                    <matte>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </matte>
+                    </col_value>
+                  <s_value>
+                    <default>
+                      1 
+                    </default>
+                    <keyframes>
+                      <S>
+                        0 1 1 0 
+                      </S>
+                      </keyframes>
+                    </s_value>
+                  <col_value>
+                    <red>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </red>
+                    <green>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </green>
+                    <blue>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </blue>
+                    <matte>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </matte>
+                    </col_value>
+                  </spectrum>
+                </birth_color>
+              <birth_color_ctrl>
+                0 0 
+              </birth_color_ctrl>
+              <birth_color_spread>
+                <default>
+                  0 
+                </default>
+                </birth_color_spread>
+              <birth_color_fade>
+                <default>
+                  0 
+                </default>
+                </birth_color_fade>
+              <fadein_color>
+                <spectrum>
+                  <s_value>
+                    <default>
+                      0 
+                    </default>
+                    <keyframes>
+                      <S>
+                        0 0 1 0 
+                      </S>
+                      </keyframes>
+                    </s_value>
+                  <col_value>
+                    <red>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </red>
+                    <green>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </green>
+                    <blue>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </blue>
+                    <matte>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </matte>
+                    </col_value>
+                  <s_value>
+                    <default>
+                      1 
+                    </default>
+                    <keyframes>
+                      <S>
+                        0 1 1 0 
+                      </S>
+                      </keyframes>
+                    </s_value>
+                  <col_value>
+                    <red>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </red>
+                    <green>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </green>
+                    <blue>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </blue>
+                    <matte>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </matte>
+                    </col_value>
+                  </spectrum>
+                </fadein_color>
+              <fadein_color_ctrl>
+                0 0 
+              </fadein_color_ctrl>
+              <fadein_color_spread>
+                <default>
+                  0 
+                </default>
+                </fadein_color_spread>
+              <fadein_color_range>
+                <default>
+                  0 
+                </default>
+                </fadein_color_range>
+              <fadein_color_fade>
+                <default>
+                  0 
+                </default>
+                </fadein_color_fade>
+              <fadeout_color>
+                <spectrum>
+                  <s_value>
+                    <default>
+                      0 
+                    </default>
+                    <keyframes>
+                      <S>
+                        0 0 1 0 
+                      </S>
+                      </keyframes>
+                    </s_value>
+                  <col_value>
+                    <red>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </red>
+                    <green>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </green>
+                    <blue>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </blue>
+                    <matte>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </matte>
+                    </col_value>
+                  <s_value>
+                    <default>
+                      1 
+                    </default>
+                    <keyframes>
+                      <S>
+                        0 1 1 0 
+                      </S>
+                      </keyframes>
+                    </s_value>
+                  <col_value>
+                    <red>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </red>
+                    <green>
+                      <default>
+                        0 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
+                      </green>
+                    <blue>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </blue>
+                    <matte>
+                      <default>
+                        1 
+                      </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
+                      </matte>
+                    </col_value>
+                  </spectrum>
+                </fadeout_color>
+              <fadeout_color_ctrl>
+                0 0 
+              </fadeout_color_ctrl>
+              <fadeout_color_spread>
+                <default>
+                  0 
+                </default>
+                </fadeout_color_spread>
+              <fadeout_color_range>
+                <default>
+                  0 
+                </default>
+                </fadeout_color_range>
+              <fadeout_color_fade>
+                <default>
+                  0 
+                </default>
+                </fadeout_color_fade>
+              <source_gradation>
+                0 0 
+              </source_gradation>
+              <pick_color_for_every_frame>
+                0 0 
+              </pick_color_for_every_frame>
+              <perspective_distribution>
+                0 0 
+              </perspective_distribution>
+              <motion_blur>
+                0 0 
+              </motion_blur>
+              <motion_blur_gamma_adjust>
+                <default>
+                  0 
+                </default>
+                </motion_blur_gamma_adjust>
+              </params>
+            <ports>
+              <Texture1>
+                <Toonz_columnFx id='12'>
+                  
+                  <params>
+                    </params>
+                  <ports>
+                    </ports>
+                  <dagNodePos>
+                    24905.2 25044.9 
+                  </dagNodePos>
+                  <numberId>
+                    0 
+                  </numberId>
+                  <name>
+                    "LevelColumn AffineFx"
+                  </name>
+                  <fxId>
+                    "" 
+                  </fxId>
+                  <opened>
+                    1 
+                  </opened>
+                  
+                </Toonz_columnFx>
+                
+              </Texture1>
+              <Control1>
+                <Toonz_columnFx id='13'>
+                  
+                  <params>
+                    </params>
+                  <ports>
+                    </ports>
+                  <dagNodePos>
+                    24947.7 24945 
+                  </dagNodePos>
+                  <numberId>
+                    0 
+                  </numberId>
+                  <name>
+                    "LevelColumn AffineFx"
+                  </name>
+                  <fxId>
+                    "" 
+                  </fxId>
+                  <opened>
+                    0 
+                  </opened>
+                  
+                </Toonz_columnFx>
+                
+              </Control1>
+              <Texture2>
+                </Texture2>
+              <Control2>
+                </Control2>
+              </ports>
+            <dagNodePos>
+              25185 25075 
+            </dagNodePos>
+            <numberId>
+              1 
+            </numberId>
+            <name>
+              "Falling leaves"
+            </name>
+            <fxId>
+              Particles01 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_particlesFx>
+          
+          <params>
+            </params>
+          <ports>
+            </ports>
+          <dagNodePos>
+            25088 25050.7 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            ZeraryColumn 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_zeraryColumnFx>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 99 
+          </cell>
+          </cells>
+        
+      </zeraryFxColumn>
+      <levelColumn id='14'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 48 <level id='8'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='13'/>
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='15'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 3 <level id='5'/>0001 1 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='12'/>
+        </fx>
+        
+      </levelColumn>
+      
+    </columns>
+    <pegbars>
+      <pegbar id="None">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar activeboth="yes" id="Camera1">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24500 25550 
+        </nodePos>
+        <camera>
+          <cameraSize>
+            16 9 
+          </cameraSize>
+          <cameraRes>
+            1920 1080 
+          </cameraRes>
+          <cameraXPrevalence>
+            1 
+          </cameraXPrevalence>
+          <interestRect>
+            0 0 -1 -1 
+          </interestRect>
+          </camera>
+        </pegbar>
+      <pegbar id="Table">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24500 25500 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col1">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25450 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col2">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <name>
+          rupee_control 
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -7.48579 
+            </L>
+            <L>
+              <prev>
+                7.54124 
+              </prev>
+              47 7.54124 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 5.26778 
+            </L>
+            <L>
+              <prev>
+                4.99053 
+              </prev>
+              47 4.99053 
+            </L>
+            </keyframes>
+          </y>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25400 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col3">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <name>
+          rupee 
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25500 
+        </nodePos>
+        </pegbar>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </pegbars>
+    <fxnodes>
+      <terminal>
+        <fxnode>
+          <Toonz_zeraryColumnFx id='10'/>
+        </fxnode>
+        </terminal>
+      <xsheet>
+        <Toonz_xsheetFx id='16'>
+          
+          <params>
+            </params>
+          <ports>
+            </ports>
+          <dagNodePos>
+            25194 24972.9 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            Xsheet 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_xsheetFx>
+        
+      </xsheet>
+      <output>
+        <Toonz_outputFx id='17'>
+          
+          <params>
+            </params>
+          <ports>
+            <source>
+              <Toonz_xsheetFx id='16'/>
+            </source>
+            </ports>
+          <dagNodePos>
+            25354.6 24994.2 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            OutputFx 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_outputFx>
+        
+      </output>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </fxnodes>
+    </xsheet>
+  <history>
+    "| #    DATE:       Time:   MACHINE:    USER:           |"
+    "| #1   09 Jun 23   14:03   DESKTOP-2RCAg9f60           |"
+    "| #2   10 Jun 23   15:14   DESKTOP-2RCAg9f60           |"
+  </history>
+  </tnz>
