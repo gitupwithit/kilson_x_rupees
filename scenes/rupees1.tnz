@@ -37,7 +37,7 @@
           24 
         </fps>
         <path>
-          "+outputs\\.avi"
+          "+outputs\\.gif"
         </path>
         <bpp>
           32 
@@ -46,7 +46,7 @@
           0 
         </multimedia>
         <threadsIndex>
-          2 
+          0 
         </threadsIndex>
         <maxTileSizeIndex>
           0 
@@ -76,6 +76,27 @@
               <item value="MS-CRAM '32' Microsoft Video 1"/>
               <item value="MS-CRAM '24' Microsoft Video 1"/>
               </property>
+            </formatProperties>
+          <formatProperties ext="gif">
+            <property max="100" min="1" name="Scale" type="int" value="100"/>
+            <property name="Looping" type="bool" value="true"/>
+            <property name="Generate Palette" type="bool" value="true"/>
+            <property name="Mode" type="enum" value="GLOBAL0">
+              <item value="GLOBAL0"/>
+              <item value="GLOBAL1"/>
+              <item value="GLOBAL2"/>
+              <item value="GLOBAL3"/>
+              <item value="DIFF0"/>
+              <item value="DIFF1"/>
+              <item value="DIFF2"/>
+              <item value="DIFF3"/>
+              <item value="NEW0"/>
+              <item value="NEW1"/>
+              <item value="NEW2"/>
+              <item value="NEW3"/>
+              <item value="NOPAL"/>
+              </property>
+            <property max="256" min="2" name="Max Colors" type="int" value="256"/>
             </formatProperties>
           <formatProperties ext="mp4">
             <property max="100" min="1" name="Quality" type="int" value="90"/>
@@ -125,7 +146,7 @@
         </output>
       <output name="preview">
         <range>
-          0 -1 
+          68 78 
         </range>
         <step>
           1 
@@ -1332,7 +1353,7 @@
               0 
             </numberId>
             <name>
-              LevelColumn 
+              "LevelColumn AffineFx"
             </name>
             <fxId>
               "" 
@@ -1367,7 +1388,7 @@
               0 
             </numberId>
             <name>
-              LevelColumn 
+              "LevelColumn AffineFx"
             </name>
             <fxId>
               "" 
@@ -1402,7 +1423,7 @@
               0 
             </numberId>
             <name>
-              LevelColumn 
+              "LevelColumn AffineFx"
             </name>
             <fxId>
               "" 
@@ -1437,7 +1458,7 @@
               0 
             </numberId>
             <name>
-              LevelColumn 
+              "LevelColumn AffineFx"
             </name>
             <fxId>
               "" 
@@ -1472,7 +1493,7 @@
               0 
             </numberId>
             <name>
-              LevelColumn 
+              "LevelColumn AffineFx"
             </name>
             <fxId>
               "" 
@@ -1995,6 +2016,6 @@
     "| #1   09 Jun 23   14:03   DESKTOP-2RCAg9f60           |"
     "| #2   10 Jun 23   12:50   DESKTOP-2RCAg9f60           |"
     "| #3   11 Jun 23   00:35   DESKTOP-M3I9Grandkids       |"
-    "| #4   11 Jun 23   01:05   DESKTOP-M3I9Grandkids       |"
+    "| #4   11 Jun 23   01:29   DESKTOP-M3I9Grandkids       |"
   </history>
   </tnz>
