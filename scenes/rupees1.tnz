@@ -1,4 +1,4 @@
-<tnz framecount="554" version="71.1">
+<tnz framecount="626" version="71.1">
   <generator>
     "OpenToonz 1.7.1"
   </generator>
@@ -1318,7 +1318,7 @@
         </status>
         <cells>
           <cell>
-            482 72 <level id='11'/>65534 0 
+            554 72 <level id='11'/>65534 0 
           </cell>
           </cells>
         <fx>
@@ -1328,14 +1328,11 @@
               </params>
             <ports>
               </ports>
-            <dagNodePos>
-              25005 24955 
-            </dagNodePos>
             <numberId>
               0 
             </numberId>
             <name>
-              "LevelColumn AffineFx"
+              LevelColumn 
             </name>
             <fxId>
               "" 
@@ -1356,7 +1353,7 @@
         </status>
         <cells>
           <cell>
-            360 194 <level id='11'/>65535 0 
+            432 194 <level id='11'/>65535 0 
           </cell>
           </cells>
         <fx>
@@ -1366,14 +1363,11 @@
               </params>
             <ports>
               </ports>
-            <dagNodePos>
-              25005 24905 
-            </dagNodePos>
             <numberId>
               0 
             </numberId>
             <name>
-              "LevelColumn AffineFx"
+              LevelColumn 
             </name>
             <fxId>
               "" 
@@ -1394,7 +1388,7 @@
         </status>
         <cells>
           <cell>
-            216 338 <level id='11'/>0000 0 
+            288 338 <level id='11'/>0000 0 
           </cell>
           </cells>
         <fx>
@@ -1404,9 +1398,6 @@
               </params>
             <ports>
               </ports>
-            <dagNodePos>
-              25005 24505 
-            </dagNodePos>
             <numberId>
               0 
             </numberId>
@@ -1432,7 +1423,7 @@
         </status>
         <cells>
           <cell>
-            144 410 <level id='11'/>0001 0 
+            216 410 <level id='11'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -1442,9 +1433,6 @@
               </params>
             <ports>
               </ports>
-            <dagNodePos>
-              25005 24455 
-            </dagNodePos>
             <numberId>
               0 
             </numberId>
@@ -1470,7 +1458,7 @@
         </status>
         <cells>
           <cell>
-            72 482 <level id='11'/>0002 0 
+            144 482 <level id='11'/>0002 0 
           </cell>
           </cells>
         <fx>
@@ -1480,14 +1468,11 @@
               </params>
             <ports>
               </ports>
-            <dagNodePos>
-              25005 24605 
-            </dagNodePos>
             <numberId>
               0 
             </numberId>
             <name>
-              "LevelColumn AffineFx"
+              LevelColumn 
             </name>
             <fxId>
               "" 
@@ -1508,7 +1493,7 @@
         </status>
         <cells>
           <cell>
-            72 482 <level id='11'/>0003 0 
+            72 554 <level id='11'/>0003 0 
           </cell>
           </cells>
         <fx>
@@ -1759,7 +1744,7 @@
           </default>
           </sc>
         <nodePos>
-          24620 25400 
+          1.234e+09 5.678e+09 
         </nodePos>
         </pegbar>
       <pegbar id="Col4">
@@ -1790,7 +1775,7 @@
           </default>
           </sc>
         <nodePos>
-          24620 25350 
+          1.234e+09 5.678e+09 
         </nodePos>
         </pegbar>
       <pegbar id="Col5">
@@ -1821,7 +1806,7 @@
           </default>
           </sc>
         <nodePos>
-          24620 25000 
+          1.234e+09 5.678e+09 
         </nodePos>
         </pegbar>
       <pegbar id="Col6">
@@ -1852,7 +1837,7 @@
           </default>
           </sc>
         <nodePos>
-          24620 25100 
+          1.234e+09 5.678e+09 
         </nodePos>
         </pegbar>
       <pegbar id="Col7">
@@ -1883,7 +1868,7 @@
           </default>
           </sc>
         <nodePos>
-          24620 25050 
+          1.234e+09 5.678e+09 
         </nodePos>
         </pegbar>
       <pegbar id="Col8">
@@ -1924,25 +1909,25 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='26'/>
-        </fxnode>
-        <fxnode>
           <Toonz_zeraryColumnFx id='13'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='20'/>
+          <Toonz_columnFx id='28'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='18'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='24'/>
+          <Toonz_columnFx id='20'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='22'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='28'/>
+          <Toonz_columnFx id='26'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='24'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -2010,6 +1995,6 @@
     "| #1   09 Jun 23   14:03   DESKTOP-2RCAg9f60           |"
     "| #2   10 Jun 23   12:50   DESKTOP-2RCAg9f60           |"
     "| #3   11 Jun 23   00:35   DESKTOP-M3I9Grandkids       |"
-    "| #4   11 Jun 23   00:50   DESKTOP-M3I9Grandkids       |"
+    "| #4   11 Jun 23   01:05   DESKTOP-M3I9Grandkids       |"
   </history>
   </tnz>
