@@ -77,6 +77,10 @@
               <item value="MS-CRAM '24' Microsoft Video 1"/>
               </property>
             </formatProperties>
+          <formatProperties ext="mp4">
+            <property max="100" min="1" name="Quality" type="int" value="90"/>
+            <property max="100" min="1" name="Scale" type="int" value="100"/>
+            </formatProperties>
           <formatProperties ext="tif">
             <property name="Byte Ordering" type="enum" value="IBM PC">
               <item value="IBM PC"/>
@@ -456,7 +460,7 @@
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='10'/><level id='11'/><level id='2'/><level id='4'/><level id='3'/><level id='5'/><level id='7'/><level id='1'/><level id='6'/><level id='9'/><level id='8'/>
+        <level id='7'/><level id='6'/><level id='10'/><level id='2'/><level id='4'/><level id='1'/><level id='9'/><level id='8'/><level id='11'/><level id='5'/><level id='3'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -1390,7 +1394,7 @@
         </status>
         <cells>
           <cell>
-            288 266 <level id='11'/>65536 0 
+            216 338 <level id='11'/>0000 0 
           </cell>
           </cells>
         <fx>
@@ -1401,13 +1405,13 @@
             <ports>
               </ports>
             <dagNodePos>
-              25005 24855 
+              25005 24505 
             </dagNodePos>
             <numberId>
               0 
             </numberId>
             <name>
-              "LevelColumn AffineFx"
+              LevelColumn 
             </name>
             <fxId>
               "" 
@@ -1428,7 +1432,7 @@
         </status>
         <cells>
           <cell>
-            216 338 <level id='11'/>65537 0 
+            144 410 <level id='11'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -1439,13 +1443,13 @@
             <ports>
               </ports>
             <dagNodePos>
-              25005 24805 
+              25005 24455 
             </dagNodePos>
             <numberId>
               0 
             </numberId>
             <name>
-              "LevelColumn AffineFx"
+              LevelColumn 
             </name>
             <fxId>
               "" 
@@ -1466,7 +1470,7 @@
         </status>
         <cells>
           <cell>
-            144 410 <level id='11'/>65538 0 
+            72 482 <level id='11'/>0002 0 
           </cell>
           </cells>
         <fx>
@@ -1477,7 +1481,7 @@
             <ports>
               </ports>
             <dagNodePos>
-              25005 24755 
+              25005 24605 
             </dagNodePos>
             <numberId>
               0 
@@ -1504,7 +1508,7 @@
         </status>
         <cells>
           <cell>
-            72 482 <level id='11'/>65539 0 
+            72 482 <level id='11'/>0003 0 
           </cell>
           </cells>
         <fx>
@@ -1514,9 +1518,6 @@
               </params>
             <ports>
               </ports>
-            <dagNodePos>
-              25005 24705 
-            </dagNodePos>
             <numberId>
               0 
             </numberId>
@@ -1820,7 +1821,7 @@
           </default>
           </sc>
         <nodePos>
-          24620 25300 
+          24620 25000 
         </nodePos>
         </pegbar>
       <pegbar id="Col6">
@@ -1851,7 +1852,7 @@
           </default>
           </sc>
         <nodePos>
-          24620 25250 
+          24620 25100 
         </nodePos>
         </pegbar>
       <pegbar id="Col7">
@@ -1882,42 +1883,11 @@
           </default>
           </sc>
         <nodePos>
-          24620 25200 
+          24620 25050 
         </nodePos>
         </pegbar>
       <pegbar id="Col8">
         <parent handle="B" id="Table" parentHandle="B">
-          </parent>
-        <isOpened>
-          0 
-        </isOpened>
-        <center>
-          0 0 0 0 
-        </center>
-        <status>
-          0 
-        </status>
-        <sx>
-          <default>
-            1 
-          </default>
-          </sx>
-        <sy>
-          <default>
-            1 
-          </default>
-          </sy>
-        <sc>
-          <default>
-            1 
-          </default>
-          </sc>
-        <nodePos>
-          24620 25150 
-        </nodePos>
-        </pegbar>
-      <pegbar id="BadPegbar">
-        <parent handle="B" id="None" parentHandle="B">
           </parent>
         <isOpened>
           0 
@@ -1954,25 +1924,25 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='18'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='28'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='24'/>
-        </fxnode>
-        <fxnode>
           <Toonz_columnFx id='26'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_zeraryColumnFx id='13'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='20'/>
         </fxnode>
         <fxnode>
+          <Toonz_columnFx id='18'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='24'/>
+        </fxnode>
+        <fxnode>
           <Toonz_columnFx id='22'/>
         </fxnode>
         <fxnode>
-          <Toonz_zeraryColumnFx id='13'/>
+          <Toonz_columnFx id='28'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -2040,5 +2010,6 @@
     "| #1   09 Jun 23   14:03   DESKTOP-2RCAg9f60           |"
     "| #2   10 Jun 23   12:50   DESKTOP-2RCAg9f60           |"
     "| #3   11 Jun 23   00:35   DESKTOP-M3I9Grandkids       |"
+    "| #4   11 Jun 23   00:50   DESKTOP-M3I9Grandkids       |"
   </history>
   </tnz>

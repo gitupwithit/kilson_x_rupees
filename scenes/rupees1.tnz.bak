@@ -37,7 +37,7 @@
           24 
         </fps>
         <path>
-          "+outputs\\.tif"
+          "+outputs\\.avi"
         </path>
         <bpp>
           32 
@@ -70,6 +70,13 @@
           25 25 
         </timestretch>
         <formatsProperties>
+          <formatProperties ext="avi">
+            <property name="Codec" type="enum" value="Uncompressed">
+              <item value="Uncompressed"/>
+              <item value="MS-CRAM '32' Microsoft Video 1"/>
+              <item value="MS-CRAM '24' Microsoft Video 1"/>
+              </property>
+            </formatProperties>
           <formatProperties ext="tif">
             <property name="Byte Ordering" type="enum" value="IBM PC">
               <item value="IBM PC"/>
@@ -114,7 +121,7 @@
         </output>
       <output name="preview">
         <range>
-          0 553 
+          0 -1 
         </range>
         <step>
           1 
@@ -672,12 +679,12 @@
               <scale>
                 <min>
                   <default>
-                    20 
+                    25 
                   </default>
                   </min>
                 <max>
                   <default>
-                    28 
+                    50 
                   </default>
                   </max>
                 </scale>
@@ -1324,7 +1331,7 @@
               0 
             </numberId>
             <name>
-              LevelColumn 
+              "LevelColumn AffineFx"
             </name>
             <fxId>
               "" 
@@ -1362,7 +1369,7 @@
               0 
             </numberId>
             <name>
-              LevelColumn 
+              "LevelColumn AffineFx"
             </name>
             <fxId>
               "" 
@@ -1400,7 +1407,7 @@
               0 
             </numberId>
             <name>
-              LevelColumn 
+              "LevelColumn AffineFx"
             </name>
             <fxId>
               "" 
@@ -1666,7 +1673,7 @@
           </default>
           </sc>
         <nodePos>
-          24620.9 25450 
+          24620 25450 
         </nodePos>
         </pegbar>
       <pegbar id="Col2">
@@ -2032,6 +2039,6 @@
     "| #    DATE:       Time:   MACHINE:    USER:           |"
     "| #1   09 Jun 23   14:03   DESKTOP-2RCAg9f60           |"
     "| #2   10 Jun 23   12:50   DESKTOP-2RCAg9f60           |"
-    "| #3   11 Jun 23   00:14   DESKTOP-M3I9Grandkids       |"
+    "| #3   11 Jun 23   00:35   DESKTOP-M3I9Grandkids       |"
   </history>
   </tnz>
