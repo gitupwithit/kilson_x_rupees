@@ -146,7 +146,7 @@
         </output>
       <output name="preview">
         <range>
-          554 618 
+          555 618 
         </range>
         <step>
           1 
@@ -2330,7 +2330,7 @@
       <levelColumn id='44'>
         
         <status>
-          0 
+          2 
         </status>
         <cells>
           <cell>
@@ -2368,7 +2368,7 @@
       <levelColumn id='46'>
         
         <status>
-          0 
+          2 
         </status>
         <cells>
           <cell>
@@ -2406,7 +2406,7 @@
       <levelColumn id='48'>
         
         <status>
-          0 
+          2 
         </status>
         <cells>
           <cell>
@@ -2444,7 +2444,7 @@
       <levelColumn id='50'>
         
         <status>
-          0 
+          2 
         </status>
         <cells>
           <cell>
@@ -2482,7 +2482,7 @@
       <levelColumn id='52'>
         
         <status>
-          0 
+          2 
         </status>
         <cells>
           <cell>
@@ -2520,7 +2520,7 @@
       <levelColumn id='54'>
         
         <status>
-          0 
+          2 
         </status>
         <cells>
           <cell>
@@ -2608,7 +2608,7 @@
             
             <params>
               <source_ctrl>
-                0 0 
+                0 9 
               </source_ctrl>
               <bright_thres>
                 25 25 
@@ -3212,7 +3212,7 @@
           <ports>
             </ports>
           <dagNodePos>
-            25083.6 25226.4 
+            25067.6 25172.4 
           </dagNodePos>
           <numberId>
             0 
@@ -3383,7 +3383,7 @@
           </default>
           </sc>
         <nodePos>
-          24560 25100 
+          24494.4 25100 
         </nodePos>
         </pegbar>
       <pegbar id="Col1">
@@ -4732,6 +4732,6 @@
     "| #4   11 Jun 23   01:29   DESKTOP-M3I9Grandkids       |"
     "| #5   11 Jun 23   23:54   DESKTOP-M3I9Grandkids       |"
     "| #6   12 Jun 23   01:16   DESKTOP-M3I9Grandkids       |"
-    "| #7   12 Jun 23   01:35   DESKTOP-M3I9Grandkids       |"
+    "| #7   12 Jun 23   01:41   DESKTOP-M3I9Grandkids       |"
   </history>
   </tnz>

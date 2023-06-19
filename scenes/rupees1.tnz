@@ -146,7 +146,7 @@
         </output>
       <output name="preview">
         <range>
-          555 618 
+          512 522 
         </range>
         <step>
           1 
@@ -798,10 +798,10 @@
                       <fxnodes>
                         <terminal>
                           <fxnode>
-                            <Toonz_columnFx id='25'/>
+                            <Toonz_columnFx id='23'/>
                           </fxnode>
                           <fxnode>
-                            <Toonz_columnFx id='23'/>
+                            <Toonz_columnFx id='25'/>
                           </fxnode>
                           </terminal>
                         <xsheet>
@@ -1476,7 +1476,7 @@
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <childLevel id='20'/><childLevel id='17'/><level id='6'/><level id='3'/><level id='4'/><level id='8'/><level id='10'/><level id='16'/><level id='15'/><level id='13'/><level id='7'/><level id='5'/><level id='11'/><level id='9'/><level id='12'/><level id='14'/><level id='1'/><level id='2'/><childLevel id='31'/>
+        <level id='1'/><level id='3'/><level id='6'/><level id='7'/><level id='9'/><level id='10'/><level id='12'/><level id='13'/><level id='14'/><level id='2'/><level id='8'/><level id='11'/><level id='15'/><level id='16'/><level id='5'/><level id='4'/><childLevel id='31'/><childLevel id='17'/><childLevel id='20'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -1507,6 +1507,12 @@
                     <L>
                       31 0 
                     </L>
+                    <L>
+                      <prev>
+                        -0.422751 
+                      </prev>
+                      548 -0.422751 
+                    </L>
                     </keyframes>
                   </x>
                 <y>
@@ -1516,6 +1522,12 @@
                   <keyframes>
                     <L>
                       31 230.971 
+                    </L>
+                    <L>
+                      <prev>
+                        2.77161 
+                      </prev>
+                      548 2.77161 
                     </L>
                     </keyframes>
                   </y>
@@ -1528,6 +1540,12 @@
                   <L>
                     0 852.146 
                   </L>
+                  <L>
+                    <prev>
+                      42.0202 
+                    </prev>
+                    548 42.0202 
+                  </L>
                   </keyframes>
                 </length>
               <height>
@@ -1537,6 +1555,12 @@
                 <keyframes>
                   <L>
                     0 21.2923 
+                  </L>
+                  <L>
+                    <prev>
+                      35.5556 
+                    </prev>
+                    548 35.5556 
                   </L>
                   </keyframes>
                 </height>
@@ -1636,7 +1660,7 @@
               <swing>
                 <min>
                   <default>
-                    0 
+                    83.0565 
                   </default>
                   </min>
                 <max>
@@ -1699,12 +1723,12 @@
               <scale>
                 <min>
                   <default>
-                    25 
+                    11.7647 
                   </default>
                   </min>
                 <max>
                   <default>
-                    50 
+                    41.1765 
                   </default>
                   </max>
                 </scale>
@@ -2285,7 +2309,7 @@
           <ports>
             </ports>
           <dagNodePos>
-            25067.5 25050.7 
+            25051.1 25123.6 
           </dagNodePos>
           <numberId>
             0 
@@ -2330,7 +2354,7 @@
       <levelColumn id='44'>
         
         <status>
-          2 
+          0 
         </status>
         <cells>
           <cell>
@@ -2368,7 +2392,7 @@
       <levelColumn id='46'>
         
         <status>
-          2 
+          0 
         </status>
         <cells>
           <cell>
@@ -2406,7 +2430,7 @@
       <levelColumn id='48'>
         
         <status>
-          2 
+          0 
         </status>
         <cells>
           <cell>
@@ -2444,7 +2468,7 @@
       <levelColumn id='50'>
         
         <status>
-          2 
+          0 
         </status>
         <cells>
           <cell>
@@ -2482,7 +2506,7 @@
       <levelColumn id='52'>
         
         <status>
-          2 
+          0 
         </status>
         <cells>
           <cell>
@@ -2520,7 +2544,7 @@
       <levelColumn id='54'>
         
         <status>
-          2 
+          0 
         </status>
         <cells>
           <cell>
@@ -2582,7 +2606,7 @@
             <ports>
               </ports>
             <dagNodePos>
-              24741.6 25162.4 
+              24699.9 25121.8 
             </dagNodePos>
             <numberId>
               0 
@@ -2608,7 +2632,7 @@
             
             <params>
               <source_ctrl>
-                0 9 
+                0 0 
               </source_ctrl>
               <bright_thres>
                 25 25 
@@ -2619,44 +2643,39 @@
               <center>
                 <x>
                   <default>
-                    -170.014 
+                    0 
                   </default>
                   </x>
                 <y>
                   <default>
-                    -186.391 
+                    400 
                   </default>
                   </y>
                 </center>
               <length>
                 <default>
-                  1 
+                  1500 
                 </default>
                 </length>
               <height>
                 <default>
-                  1 
+                  100 
                 </default>
                 </height>
               <birth_rate>
                 <default>
-                  100 
+                  10 
                 </default>
-                <keyframes>
-                  <S>
-                    0 0.235 1 0 
-                  </S>
-                  </keyframes>
                 </birth_rate>
               <lifetime>
                 <min>
                   <default>
-                    100 
+                    10 
                   </default>
                   </min>
                 <max>
                   <default>
-                    100 
+                    10 
                   </default>
                   </max>
                 </lifetime>
@@ -2709,24 +2728,24 @@
               <scattering_x>
                 <min>
                   <default>
-                    5 
+                    3 
                   </default>
                   </min>
                 <max>
                   <default>
-                    7 
+                    5 
                   </default>
                   </max>
                 </scattering_x>
               <scattering_y>
                 <min>
                   <default>
-                    2 
+                    0 
                   </default>
                   </min>
                 <max>
                   <default>
-                    4 
+                    0 
                   </default>
                   </max>
                 </scattering_y>
@@ -2739,19 +2758,19 @@
               <swing>
                 <min>
                   <default>
-                    5 
+                    0 
                   </default>
                   </min>
                 <max>
                   <default>
-                    10 
+                    100 
                   </default>
                   </max>
                 </swing>
               <speed>
                 <min>
                   <default>
-                    10 
+                    5 
                   </default>
                   </min>
                 <max>
@@ -2761,17 +2780,17 @@
                   </max>
                 </speed>
               <speed_ctrl>
-                0 0 
+                0 9 
               </speed_ctrl>
               <speed_angle>
                 <min>
                   <default>
-                    180 
+                    0 
                   </default>
                   </min>
                 <max>
                   <default>
-                    180 
+                    0 
                   </default>
                   </max>
                 </speed_angle>
@@ -2782,7 +2801,7 @@
                 0 0 
               </speeda_use_gradient>
               <speed_size>
-                0 0 
+                0 1 
               </speed_size>
               <top_layer>
                 0 
@@ -2790,24 +2809,24 @@
               <mass>
                 <min>
                   <default>
-                    1 
+                    0 
                   </default>
                   </min>
                 <max>
                   <default>
-                    1 
+                    0 
                   </default>
                   </max>
                 </mass>
               <scale>
                 <min>
                   <default>
-                    2 
+                    10 
                   </default>
                   </min>
                 <max>
                   <default>
-                    15 
+                    10 
                   </default>
                   </max>
                 </scale>
@@ -2815,7 +2834,7 @@
                 0 0 
               </scale_ctrl>
               <scale_ctrl_all>
-                0 0 
+                0 1 
               </scale_ctrl_all>
               <rot>
                 <min>
@@ -2825,7 +2844,7 @@
                   </min>
                 <max>
                   <default>
-                    360 
+                    0 
                   </default>
                   </max>
                 </rot>
@@ -2860,12 +2879,12 @@
               <spin_random>
                 <min>
                   <default>
-                    -10 
+                    0 
                   </default>
                   </min>
                 <max>
                   <default>
-                    10 
+                    0 
                   </default>
                   </max>
                 </spin_random>
@@ -2914,12 +2933,12 @@
               <scale_step>
                 <min>
                   <default>
-                    0.2 
+                    0 
                   </default>
                   </min>
                 <max>
                   <default>
-                    0.5 
+                    0 
                   </default>
                   </max>
                 </scale_step>
@@ -2948,54 +2967,104 @@
                     <default>
                       0 
                     </default>
+                    <keyframes>
+                      <S>
+                        0 0 1 0 
+                      </S>
+                      </keyframes>
                     </s_value>
                   <col_value>
                     <red>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </red>
                     <green>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </green>
                     <blue>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </blue>
                     <matte>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </matte>
                     </col_value>
                   <s_value>
                     <default>
                       1 
                     </default>
+                    <keyframes>
+                      <S>
+                        0 1 1 0 
+                      </S>
+                      </keyframes>
                     </s_value>
                   <col_value>
                     <red>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </red>
                     <green>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </green>
                     <blue>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </blue>
                     <matte>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </matte>
                     </col_value>
                   </spectrum>
@@ -3019,54 +3088,104 @@
                     <default>
                       0 
                     </default>
+                    <keyframes>
+                      <S>
+                        0 0 1 0 
+                      </S>
+                      </keyframes>
                     </s_value>
                   <col_value>
                     <red>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </red>
                     <green>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </green>
                     <blue>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </blue>
                     <matte>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </matte>
                     </col_value>
                   <s_value>
                     <default>
                       1 
                     </default>
+                    <keyframes>
+                      <S>
+                        0 1 1 0 
+                      </S>
+                      </keyframes>
                     </s_value>
                   <col_value>
                     <red>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </red>
                     <green>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </green>
                     <blue>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </blue>
                     <matte>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </matte>
                     </col_value>
                   </spectrum>
@@ -3095,54 +3214,104 @@
                     <default>
                       0 
                     </default>
+                    <keyframes>
+                      <S>
+                        0 0 1 0 
+                      </S>
+                      </keyframes>
                     </s_value>
                   <col_value>
                     <red>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </red>
                     <green>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </green>
                     <blue>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </blue>
                     <matte>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </matte>
                     </col_value>
                   <s_value>
                     <default>
                       1 
                     </default>
+                    <keyframes>
+                      <S>
+                        0 1 1 0 
+                      </S>
+                      </keyframes>
                     </s_value>
                   <col_value>
                     <red>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </red>
                     <green>
                       <default>
                         0 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 0 1 0 
+                        </S>
+                        </keyframes>
                       </green>
                     <blue>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </blue>
                     <matte>
                       <default>
                         1 
                       </default>
+                      <keyframes>
+                        <S>
+                          0 1 1 0 
+                        </S>
+                        </keyframes>
                       </matte>
                     </col_value>
                   </spectrum>
@@ -3188,18 +3357,21 @@
                 <Toonz_columnFx id='42'/>
               </Texture1>
               <Control1>
-                </Control1>
+                <Toonz_columnFx id='57'/>
+              </Control1>
               <Texture2>
                 </Texture2>
+              <Control2>
+                </Control2>
               </ports>
             <numberId>
-              3 
+              4 
             </numberId>
             <name>
-              "Water bubbles"
+              "Falling snow"
             </name>
             <fxId>
-              Particles03 
+              Particles04 
             </fxId>
             <opened>
               0 
@@ -3212,7 +3384,7 @@
           <ports>
             </ports>
           <dagNodePos>
-            25067.6 25172.4 
+            24871.4 24985.6 
           </dagNodePos>
           <numberId>
             0 
@@ -3234,7 +3406,7 @@
         </status>
         <cells>
           <cell>
-            555 71 
+            554 72 
           </cell>
           </cells>
         
@@ -3398,6 +3570,26 @@
         <status>
           0 
         </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              548 0.120805 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              548 -0.090604 
+            </L>
+            </keyframes>
+          </y>
         <sx>
           <default>
             1 
@@ -4637,16 +4829,10 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='51'/>
+          <Toonz_columnFx id='45'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='53'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='55'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='45'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='47'/>
@@ -4655,13 +4841,19 @@
           <Toonz_columnFx id='49'/>
         </fxnode>
         <fxnode>
+          <Toonz_columnFx id='55'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='57'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='51'/>
+        </fxnode>
+        <fxnode>
           <Toonz_zeraryColumnFx id='40'/>
         </fxnode>
         <fxnode>
           <Toonz_zeraryColumnFx id='59'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='57'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -4733,5 +4925,6 @@
     "| #5   11 Jun 23   23:54   DESKTOP-M3I9Grandkids       |"
     "| #6   12 Jun 23   01:16   DESKTOP-M3I9Grandkids       |"
     "| #7   12 Jun 23   01:41   DESKTOP-M3I9Grandkids       |"
+    "| #8   12 Jun 23   22:03   DESKTOP-M3I9Grandkids       |"
   </history>
   </tnz>
